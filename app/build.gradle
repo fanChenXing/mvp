@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.fancenxing.fanchen.mvppractice"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile rootProject.ext.dependencies.appcompatV7
+    compile rootProject.ext.dependencies.appcompatV4
+    compile rootProject.ext.dependencies.butterknife
+    annotationProcessor rootProject.ext.dependencies.butterknifeAnnotationProcessor
+    compile rootProject.ext.dependencies.rxjava
+    compile rootProject.ext.dependencies.rxAndroid
+    compile rootProject.ext.dependencies.retrofit
+    compile rootProject.ext.dependencies.retrofitAdapterRxjava
+    compile rootProject.ext.dependencies.retrofitConverterFastjson
+    compile rootProject.ext.dependencies.fastjson
+}
