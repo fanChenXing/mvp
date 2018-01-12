@@ -1,0 +1,26 @@
+ext {
+    android = [
+            compileSdkVersion = 25,
+            buildToolsVersion = '25.0.3',
+            minSdkVersion = 15,
+            targetSdkVersion = 25,
+            versionCode = 1,
+            versionName = '1.0'
+    ]
+
+    dependencies = [
+            appcompatV4                   : 'com.android.support:support-v4:25.3.1',
+            appcompatV7                   : 'com.android.support:appcompat-v7:25.3.1',
+            butterknife                   : 'com.jakewharton:butterknife:8.8.0',
+            butterknifeAnnotationProcessor: 'com.jakewharton:butterknife-compiler:8.8.0',
+            glide                         : 'com.github.bumptech.glide:glide:4.0.0',
+            glieAnnotaionProcessor        : 'com.github.bumptech.glide:compiler:4.0.0',
+            rxjava                        : 'io.reactivex.rxjava2:rxjava:2.1.2',
+            rxAndroid                     : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            okhttp                        : 'com.squareup.okhttp3:okhttp:3.8.1',
+            retrofit                      : 'com.squareup.retrofit2:retrofit:2.3.0',
+            retrofitAdapterRxjava         : 'com.squareup.retrofit2:adapter-rxjava2:2.3.0',
+            retrofitConverterFastjson     : 'org.ligboy.retrofit2:converter-fastjson:2.1.0',
+            fastjson                      : 'com.alibaba:fastjson:1.1.63.android',
+    ]
+}
