@@ -2,8 +2,8 @@ package com.fancenxing.fanchen.mvppractice.network;
 
 import android.text.TextUtils;
 
-import com.zjzcedu.zcproject.zcjiangshi.utilities.Constant;
-import com.zjzcedu.zcproject.zcjiangshi.utilities.JsonUtils;
+import com.fancenxing.fanchen.mvppractice.utilities.Constant;
+import com.fancenxing.fanchen.mvppractice.utilities.JsonUtils;
 
 import java.util.List;
 

@@ -8,6 +8,7 @@ package com.fancenxing.fanchen.mvppractice.utilities;
 
 public class Constant {
 
+    public static final String BASE_URL = "";
 
     public static final int STATUS_SUCCESS = 1;
     public static final int ERROR_CODE = 50;

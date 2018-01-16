@@ -4,10 +4,10 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.zjzcedu.zcproject.zcjiangshi.network.CommonErrorHandle;
-import com.zjzcedu.zcproject.zcjiangshi.network.CommonResponseListener;
-import com.zjzcedu.zcproject.zcjiangshi.network.ErrorConsumer;
-import com.zjzcedu.zcproject.zcjiangshi.network.NormalConsumer;
+import com.fancenxing.fanchen.mvppractice.network.CommonErrorHandle;
+import com.fancenxing.fanchen.mvppractice.network.CommonResponseListener;
+import com.fancenxing.fanchen.mvppractice.network.ErrorConsumer;
+import com.fancenxing.fanchen.mvppractice.network.NormalConsumer;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
